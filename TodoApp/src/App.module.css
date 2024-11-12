@@ -1,3 +1,10 @@
 .Header{
     color: brown;
 }
+
+.MainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

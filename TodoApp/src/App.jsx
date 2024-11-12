@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './App.module.css';
+import Header from './Components/Header';
 
 function App() {
   return (
-    <div>
-      <h1 className={styles.Header}>this is your boss</h1>
+    <div className={styles.MainContainer}>
+      <Header></Header>
     </div>
   )
 }
